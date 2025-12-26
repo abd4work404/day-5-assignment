@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shopping List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Shopping List</h1>
+
+    <div class="row">
+      <input id="itemInput" type="text" placeholder="Add an item…" maxlength="60" />
+      <button id="addBtn" type="button">Add</button>
+      <button id="removeLastBtn" type="button">Remove last</button>
+    </div>
+
+    <p class="meta">
+      Total items: <span id="count">0</span>
+    </p>
+
+    <ul id="list" class="list"></ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
