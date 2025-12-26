@@ -38,7 +38,6 @@ function removeLastItem() {
   render();
 }
 
-// Event listeners only + basic DOM
 addBtn.addEventListener("click", addItem);
 
 input.addEventListener("keydown", (e) => {
@@ -47,5 +46,4 @@ input.addEventListener("keydown", (e) => {
 
 removeLastBtn.addEventListener("click", removeLastItem);
 
-// Initial
 render();
